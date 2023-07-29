@@ -4,10 +4,11 @@ license="MIT License"
 
 [[mods]]
 modId="woodster"
-version="1.4.2"
+version="1.4.4"
 displayName="Woodster"
 credits="Jusey1, Burack"
 displayURL="https://discord.gg/s7QaYGUzZU"
+logoFile="logo.png"
 authors="Jusey1"
 description="Books & Ladders"
 
