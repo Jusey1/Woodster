@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_chiseled_bookshelf",
+  "key": {
+    "#": "minecraft:mangrove_planks",
+    "X": "minecraft:mangrove_slab"
+  },
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "result": {
+    "id": "woodster:mangrove_chiseled_bookshelf"
+  },
+  "show_notification": true
+}

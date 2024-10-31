@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woodster:block/acacia_ladder"
+    },
+    "facing=east": {
+      "model": "woodster:block/acacia_ladder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woodster:block/acacia_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woodster:block/acacia_ladder",
+      "y": 270
+    }
+  }
+}
