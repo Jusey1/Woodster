@@ -12,5 +12,6 @@ public class Woodster {
 		WoodsterBlocks.REGISTRY.register(bus);
 		WoodsterItems.REGISTRY.register(bus);
 		WoodsterTabs.REGISTRY.register(bus);
+		WoodsterItems.setupBlockItems();
 	}
 }
