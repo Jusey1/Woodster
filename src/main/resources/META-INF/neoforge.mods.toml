@@ -14,7 +14,7 @@ description="Books & Ladders"
 
 [[dependencies.woodster]]
     modId="minecraft"
-    mandatory=true
+    type="required"
     versionRange="[1.21.2,)"
     ordering="NONE"
     side="BOTH"
