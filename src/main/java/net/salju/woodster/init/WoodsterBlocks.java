@@ -20,7 +20,7 @@ import net.minecraft.resources.ResourceLocation;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class WoodsterBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(Registries.BLOCK, Woodster.MODID);
-	
+
 	public static final DeferredHolder<Block, Block> SPRUCE_CHISELED_BOOKSHELF = REGISTRY.register("spruce_chiseled_bookshelf", () -> new ChiseledBookShelfBlock(createBook("spruce_chiseled_bookshelf", SoundType.CHISELED_BOOKSHELF)));
 	public static final DeferredHolder<Block, Block> BIRCH_CHISELED_BOOKSHELF = REGISTRY.register("birch_chiseled_bookshelf", () -> new ChiseledBookShelfBlock(createBook("birch_chiseled_bookshelf", SoundType.CHISELED_BOOKSHELF)));
 	public static final DeferredHolder<Block, Block> JUNGLE_CHISELED_BOOKSHELF = REGISTRY.register("jungle_chiseled_bookshelf", () -> new ChiseledBookShelfBlock(createBook("jungle_chiseled_bookshelf", SoundType.CHISELED_BOOKSHELF)));
@@ -29,6 +29,7 @@ public class WoodsterBlocks {
 	public static final DeferredHolder<Block, Block> MANGROVE_CHISELED_BOOKSHELF = REGISTRY.register("mangrove_chiseled_bookshelf", () -> new ChiseledBookShelfBlock(createBook("mangrove_chiseled_bookshelf", SoundType.CHISELED_BOOKSHELF)));
 	public static final DeferredHolder<Block, Block> CHERRY_CHISELED_BOOKSHELF = REGISTRY.register("cherry_chiseled_bookshelf", () -> new ChiseledBookShelfBlock(createBook("cherry_chiseled_bookshelf", SoundType.CHERRY_WOOD)));
 	public static final DeferredHolder<Block, Block> BAMBOO_CHISELED_BOOKSHELF = REGISTRY.register("bamboo_chiseled_bookshelf", () -> new ChiseledBookShelfBlock(createBook("bamboo_chiseled_bookshelf", SoundType.BAMBOO_WOOD)));
+	public static final DeferredHolder<Block, Block> PALE_OAK_CHISELED_BOOKSHELF = REGISTRY.register("pale_oak_chiseled_bookshelf", () -> new ChiseledBookShelfBlock(createBook("pale_oak_chiseled_bookshelf", SoundType.CHISELED_BOOKSHELF)));
 	public static final DeferredHolder<Block, Block> CRIMSON_CHISELED_BOOKSHELF = REGISTRY.register("crimson_chiseled_bookshelf", () -> new ChiseledBookShelfBlock(createBook("crimson_chiseled_bookshelf", SoundType.NETHER_WOOD)));
 	public static final DeferredHolder<Block, Block> WARPED_CHISELED_BOOKSHELF = REGISTRY.register("warped_chiseled_bookshelf", () -> new ChiseledBookShelfBlock(createBook("warped_chiseled_bookshelf", SoundType.NETHER_WOOD)));
 
@@ -40,6 +41,7 @@ public class WoodsterBlocks {
 	public static final DeferredHolder<Block, Block> MANGROVE_BOOKSHELF = REGISTRY.register("mangrove_bookshelf", () -> new Block(createBook("mangrove_bookshelf", SoundType.WOOD)));
 	public static final DeferredHolder<Block, Block> CHERRY_BOOKSHELF = REGISTRY.register("cherry_bookshelf", () -> new Block(createBook("cherry_bookshelf", SoundType.CHERRY_WOOD)));
 	public static final DeferredHolder<Block, Block> BAMBOO_BOOKSHELF = REGISTRY.register("bamboo_bookshelf", () -> new Block(createBook("bamboo_bookshelf", SoundType.BAMBOO_WOOD)));
+	public static final DeferredHolder<Block, Block> PALE_OAK_BOOKSHELF = REGISTRY.register("pale_oak_bookshelf", () -> new Block(createBook("pale_oak_bookshelf", SoundType.WOOD)));
 	public static final DeferredHolder<Block, Block> CRIMSON_BOOKSHELF = REGISTRY.register("crimson_bookshelf", () -> new Block(createBook("crimson_bookshelf", SoundType.NETHER_WOOD)));
 	public static final DeferredHolder<Block, Block> WARPED_BOOKSHELF = REGISTRY.register("warped_bookshelf", () -> new Block(createBook("warped_bookshelf", SoundType.NETHER_WOOD)));
 
@@ -51,6 +53,7 @@ public class WoodsterBlocks {
 	public static final DeferredHolder<Block, Block> MANGROVE_LADDER = REGISTRY.register("mangrove_ladder", () -> new LadderBlock(createLadder("mangrove_ladder")));
 	public static final DeferredHolder<Block, Block> CHERRY_LADDER = REGISTRY.register("cherry_ladder", () -> new LadderBlock(createLadder("cherry_ladder")));
 	public static final DeferredHolder<Block, Block> BAMBOO_LADDER = REGISTRY.register("bamboo_ladder", () -> new LadderBlock(createLadder("bamboo_ladder")));
+	public static final DeferredHolder<Block, Block> PALE_OAK_LADDER = REGISTRY.register("pale_oak_ladder", () -> new LadderBlock(createLadder("pale_oak_ladder")));
 	public static final DeferredHolder<Block, Block> CRIMSON_LADDER = REGISTRY.register("crimson_ladder", () -> new LadderBlock(createLadder("crimson_ladder")));
 	public static final DeferredHolder<Block, Block> WARPED_LADDER = REGISTRY.register("warped_ladder", () -> new LadderBlock(createLadder("warped_ladder")));
 
