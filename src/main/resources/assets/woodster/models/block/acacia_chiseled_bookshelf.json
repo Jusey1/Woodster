@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/chiseled_bookshelf",
+    "textures": {
+        "top": "woodster:block/acacia_chiseled_bookshelf_top",
+        "side": "woodster:block/acacia_chiseled_bookshelf_side",
+        "particle": "#top"
+    }
+}
