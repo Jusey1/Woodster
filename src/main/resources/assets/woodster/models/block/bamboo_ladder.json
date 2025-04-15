@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/ladder",
+  "textures": {
+    "texture": "woodster:block/bamboo_ladder",
+    "particle": "woodster:block/bamboo_ladder"
+  },
+  "render_type": "cutout_mipped"
+}
