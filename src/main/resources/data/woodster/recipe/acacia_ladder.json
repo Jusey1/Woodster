@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_ladder",
+  "key": {
+    "W": "minecraft:acacia_planks",
+    "#": "minecraft:stick"
+  },
+  "pattern": [
+    "# #",
+    "#W#",
+    "# #"
+  ],
+  "result": {
+    "count": 4,
+    "id": "woodster:acacia_ladder"
+  },
+  "show_notification": true
+}

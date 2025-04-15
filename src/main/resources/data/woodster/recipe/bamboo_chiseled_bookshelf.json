@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_chiseled_bookshelf",
+  "key": {
+    "#": "minecraft:bamboo_planks",
+    "X": "minecraft:bamboo_slab"
+  },
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "result": {
+    "id": "woodster:bamboo_chiseled_bookshelf"
+  },
+  "show_notification": true
+}
