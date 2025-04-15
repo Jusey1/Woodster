@@ -1,9 +1,0 @@
-{
-    "parent": "minecraft:block/chiseled_bookshelf_inventory",
-    "textures": {
-        "top": "woodster:block/pale_oak_chiseled_bookshelf_top",
-        "side": "woodster:block/pale_oak_chiseled_bookshelf_side",
-        "front": "woodster:block/pale_oak_chiseled_bookshelf_6",
-        "particle": "#top"
-    }
-}

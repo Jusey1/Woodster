@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/ladder",
-  "textures": {
-    "texture": "woodster:block/dark_oak_ladder",
-    "particle": "woodster:block/dark_oak_ladder"
-  },
-  "render_type": "cutout_mipped"
-}
