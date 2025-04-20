@@ -25,6 +25,18 @@ public class WoodsterTabs {
 				tabData.accept(WoodsterBlocks.BAMBOO_CHISELED_BOOKSHELF.get().asItem());
 				tabData.accept(WoodsterBlocks.CRIMSON_CHISELED_BOOKSHELF.get().asItem());
 				tabData.accept(WoodsterBlocks.WARPED_CHISELED_BOOKSHELF.get().asItem());
+				tabData.accept(Blocks.BOOKSHELF.asItem());
+				tabData.accept(WoodsterBlocks.SPRUCE_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.BIRCH_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.JUNGLE_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.ACACIA_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.DARK_OAK_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.MANGROVE_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.CHERRY_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.PALE_OAK_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.BAMBOO_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.CRIMSON_BOOKSHELF.get().asItem());
+				tabData.accept(WoodsterBlocks.WARPED_BOOKSHELF.get().asItem());
 				tabData.accept(Blocks.LADDER.asItem());
 				tabData.accept(WoodsterBlocks.SPRUCE_LADDER.get().asItem());
 				tabData.accept(WoodsterBlocks.BIRCH_LADDER.get().asItem());
