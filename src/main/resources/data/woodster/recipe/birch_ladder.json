@@ -12,8 +12,7 @@
     "# #"
   ],
   "result": {
-    "count": 4,
-    "id": "woodster:birch_ladder"
-  },
-  "show_notification": true
+    "id": "woodster:birch_ladder",
+    "count": 4
+  }
 }
