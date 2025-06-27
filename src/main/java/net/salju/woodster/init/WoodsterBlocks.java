@@ -17,7 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 
-@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber
 public class WoodsterBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(Registries.BLOCK, Woodster.MODID);
 
